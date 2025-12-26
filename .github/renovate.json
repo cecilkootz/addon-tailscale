@@ -40,7 +40,8 @@
   "packageRules": [
     {
       "matchDatasources": ["repology"],
-      "automerge": true
+      "automerge": true,
+      "automergeType": "pr"
     },
     {
       "groupName": "Add-on base image",
@@ -50,13 +51,21 @@
       "groupName": "Add-on base image",
       "matchDatasources": ["docker"],
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true
+      "automerge": true,
+      "automergeType": "pr"
     },
     {
       "matchDatasources": ["github-releases"],
       "matchDepNames": ["tailscale/tailscale"],
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true
+      "automerge": true,
+      "automergeType": "pr"
+    },
+    {
+      "description": "Auto-merge all Renovate PRs after CI passes",
+      "matchManagers": ["*"],
+      "automerge": true,
+      "automergeType": "pr"
     }
   ]
 }
