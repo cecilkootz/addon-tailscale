@@ -1,24 +1,8 @@
 # Home Assistant Community Add-on: Tailscale
 
-[![GitHub Release][releases-shield]][releases]
-![Project Stage][project-stage-shield]
-[![License][license-shield]](LICENSE.md)
-
-![Supports aarch64 Architecture][aarch64-shield]
-![Supports amd64 Architecture][amd64-shield]
-
-[![Github Actions][github-actions-shield]][github-actions]
-![Project Maintenance][maintenance-shield]
-[![GitHub Activity][commits-shield]][commits]
-
-[![Discord][discord-shield]][discord]
-[![Community Forum][forum-shield]][forum]
-
-[![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
-
-[![Support Frenck on Patreon][patreon-shield]][patreon]
-
-Zero config VPN for building secure networks.
+> **⚠️ Important Note: This is a Forked Repository**
+>
+> This repository is a fork of the official Home Assistant Community Add-on for Tailscale. This fork is maintained to keep up-to-date with the latest Tailscale releases, as the main addon repository falls behind. If you're looking for the latest Tailscale features and updates, this fork provides them.
 
 ## About
 
